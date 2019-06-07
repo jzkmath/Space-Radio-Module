@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AX5043
+D Digital Transceiver IC
+F https://www.onsemi.com/pub/Collateral/AX5043-D.PDF
+$ENDCMP
+#
+#End Doc Library

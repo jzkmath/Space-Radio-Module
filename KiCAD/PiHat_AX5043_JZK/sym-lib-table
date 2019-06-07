@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SpaceRadio)(type Legacy)(uri "C:/Users/Jonathan Kayne/Documents/KiCAD/Space@VT/SpaceRadio.lib")(options "")(descr ""))
+  (lib (name PiHat_AX5043_JZK-rescue)(type Legacy)(uri ${KIPRJMOD}/PiHat_AX5043_JZK-rescue.lib)(options "")(descr ""))
+)

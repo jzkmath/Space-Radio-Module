@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Jonathan Kayne\Documents\KiCAD\Space@VT\PiHat_AX5043_JZK\PiHat_AX5043_JZK.sch</source>
+    <date>6/7/2019 11:36:28 AM</date>
+    <tool>Eeschema (5.1.0)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>AX5043 Raspberry Pi Hat - Remade</title>
+        <company>Jonathan Kayne - Space@VT</company>
+        <rev>A</rev>
+        <date>2019-06-06</date>
+        <source>PiHat_AX5043_JZK.sch</source>
+        <comment number="1" value="Based off Design from Brandenburg Tech"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="MK1">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">$0.00</field>
+      </fields>
+      <libsource lib="PiHat_AX5043_JZK-rescue" part="Mounting_Hole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5834FB2E</tstamp>
+    </comp>
+    <comp ref="MK3">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">$0.00</field>
+      </fields>
+      <libsource lib="PiHat_AX5043_JZK-rescue" part="Mounting_Hole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5834FBEF</tstamp>
+    </comp>
+    <comp ref="MK2">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">$0.00</field>
+      </fields>
+      <libsource lib="PiHat_AX5043_JZK-rescue" part="Mounting_Hole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5834FC19</tstamp>
+    </comp>
+    <comp ref="MK4">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">$0.00</field>
+      </fields>
+      <libsource lib="PiHat_AX5043_JZK-rescue" part="Mounting_Hole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5834FC4F</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>Conn_02x20_Odd_Even</value>
+      <footprint>SpaceRadio:PinHeader_2x20_P2.54mm_Vertical_zigzag</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pm92dn</field>
+        <field name="Digikey PN">S6104-ND</field>
+        <field name="Unit Price">$2.29</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AD464A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AX5043</value>
+      <footprint>Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm_ThermalVias</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/AX5043-D.PDF</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pmh3r5</field>
+        <field name="Digikey PN">AX5043-1-TW30OSCT-ND</field>
+        <field name="Unit Price">$3.01</field>
+      </fields>
+      <libsource lib="SpaceRadio" part="AX5043" description="Digital Transceiver IC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFA5DCD</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10nF</value>
+      <footprint>SpaceRadio:C_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pm9w30</field>
+        <field name="Digikey PN">587-1114-1-ND</field>
+        <field name="Unit Price">$0.45</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFAB858</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10nF</value>
+      <footprint>SpaceRadio:C_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pm9w30</field>
+        <field name="Digikey PN">587-1114-1-ND</field>
+        <field name="Unit Price">$0.45</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFAD997</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10nF</value>
+      <footprint>SpaceRadio:C_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pm9w30</field>
+        <field name="Digikey PN">587-1114-1-ND</field>
+        <field name="Unit Price">$0.45</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFB634D</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">$0.00</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFE4CFE</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">$0.00</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFE5D0E</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>L</value>
+      <footprint>SpaceRadio:L_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">$0.00</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFFD814</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">$0.00</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFFF776</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>16 MHz</value>
+      <footprint>Crystal:Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pm92rr</field>
+        <field name="Digikey PN">SER4069CT-ND</field>
+        <field name="Unit Price">$0.36</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D00FDDC</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>4.3pF</value>
+      <footprint>SpaceRadio:C_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pm9wtm</field>
+        <field name="Digikey PN">1284-1900-1-ND</field>
+        <field name="Unit Price">$1.16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D03A779</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>100nH</value>
+      <footprint>SpaceRadio:L_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pm9wzh</field>
+        <field name="Digikey PN">490-5664-1-ND</field>
+        <field name="Unit Price">$0.24</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D03AA99</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>43nH</value>
+      <footprint>SpaceRadio:L_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pm9w4t</field>
+        <field name="Digikey PN">490-16044-1-ND</field>
+        <field name="Unit Price">$0.53</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D03B0DD</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>11pF</value>
+      <footprint>SpaceRadio:C_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pm9wqn</field>
+        <field name="Digikey PN">712-1721-1-ND</field>
+        <field name="Unit Price">$0.73</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D03B9B0</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>27nH</value>
+      <footprint>SpaceRadio:L_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pm9w4m</field>
+        <field name="Digikey PN">490-16077-1-ND</field>
+        <field name="Unit Price">$0.25</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D03C3D7</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>4.3pF</value>
+      <footprint>SpaceRadio:C_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pm9wtm</field>
+        <field name="Digikey PN">1284-1900-1-ND</field>
+        <field name="Unit Price">$1.16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D05D788</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>100nH</value>
+      <footprint>SpaceRadio:L_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pm9wzh</field>
+        <field name="Digikey PN">490-5664-1-ND</field>
+        <field name="Unit Price">$0.24</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D05D792</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>43nH</value>
+      <footprint>SpaceRadio:L_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pm9w4t</field>
+        <field name="Digikey PN">490-16044-1-ND</field>
+        <field name="Unit Price">$0.53</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D05D79C</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>5.6pF</value>
+      <footprint>SpaceRadio:C_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pm9w85</field>
+        <field name="Digikey PN">712-1372-1-ND</field>
+        <field name="Unit Price">$0.52</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D05D7A6</tstamp>
+    </comp>
+    <comp ref="L7">
+      <value>27nH</value>
+      <footprint>SpaceRadio:L_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pm9w4m</field>
+        <field name="Digikey PN">490-16077-1-ND</field>
+        <field name="Unit Price">$0.25</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D05D7B0</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>5.1pF</value>
+      <footprint>SpaceRadio:C_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pm9wjp</field>
+        <field name="Digikey PN">712-1748-1-ND</field>
+        <field name="Unit Price">$0.67</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D068D36</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>SMA</value>
+      <footprint>SpaceRadio:SMA_Amphenol_5-1814832-1_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pm9220</field>
+        <field name="Digikey PN">A97594-ND</field>
+        <field name="Unit Price">$1.99</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D098F10</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06</value>
+      <footprint>SpaceRadio:PinHeader_1x06_P2.54mm_Vertical_Wide_zigzag</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">$0.00</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFDB00A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x20_Odd_Even">
+      <description>Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24_Small">
+      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PiHat_AX5043_JZK-rescue" part="Mounting_Hole-Mechanical">
+      <footprints>
+        <fp>Mounting?Hole*</fp>
+        <fp>Hole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MK</field>
+        <field name="Value">Mounting_Hole-Mechanical</field>
+      </fields>
+    </libpart>
+    <libpart lib="SpaceRadio" part="AX5043">
+      <description>Digital Transceiver IC</description>
+      <docs>https://www.onsemi.com/pub/Collateral/AX5043-D.PDF</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AX5043</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm_ThermalVias</field>
+        <field name="Digikey PN">AX5043-1-TW30OSCT-ND</field>
+        <field name="Digikey Link">https://www.digikey.com/short/pmh3r5</field>
+        <field name="Unit Price">$3.01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD_Analog" type="power_out"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="Antenna_P" type="BiDi"/>
+        <pin num="4" name="Antenna_N" type="BiDi"/>
+        <pin num="5" name="Antenna_Out" type="output"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="VDD_Analog" type="power_out"/>
+        <pin num="8" name="Filter" type="BiDi"/>
+        <pin num="9" name="L2" type="BiDi"/>
+        <pin num="10" name="L1" type="BiDi"/>
+        <pin num="11" name="Data_IO" type="BiDi"/>
+        <pin num="12" name="Data_Clock" type="BiDi"/>
+        <pin num="13" name="System_Clock" type="BiDi"/>
+        <pin num="14" name="CS" type="input"/>
+        <pin num="15" name="SPI_CLK" type="input"/>
+        <pin num="16" name="MISO" type="output"/>
+        <pin num="17" name="MOSI" type="input"/>
+        <pin num="18" name="NC" type="NotConnected"/>
+        <pin num="19" name="IRQ" type="BiDi"/>
+        <pin num="20" name="PWRAMP" type="BiDi"/>
+        <pin num="21" name="Antenna_Select" type="BiDi"/>
+        <pin num="22" name="NC" type="NotConnected"/>
+        <pin num="23" name="VDD_IO" type="power_in"/>
+        <pin num="24" name="NC" type="NotConnected"/>
+        <pin num="25" name="GPADC1" type="input"/>
+        <pin num="26" name="GPADC2" type="input"/>
+        <pin num="27" name="XTAL16_N" type="passive"/>
+        <pin num="28" name="XTAL16_P" type="passive"/>
+        <pin num="29" name="GND_Therm" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Jumper.lib</uri>
+    </library>
+    <library logical="PiHat_AX5043_JZK-rescue">
+      <uri>C:\Users\Jonathan Kayne\Documents\KiCAD\Space@VT\PiHat_AX5043_JZK/PiHat_AX5043_JZK-rescue.lib</uri>
+    </library>
+    <library logical="SpaceRadio">
+      <uri>C:/Users/Jonathan Kayne/Documents/KiCAD/Space@VT/SpaceRadio.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(JP1-Pad1)">
+      <node ref="L1" pin="2"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="2" name="Net-(U1-Pad28)">
+      <node ref="Y1" pin="1"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C7" pin="2"/>
+      <node ref="P1" pin="14"/>
+      <node ref="J1" pin="6"/>
+      <node ref="L3" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="L7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="P1" pin="25"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="P1" pin="39"/>
+      <node ref="P1" pin="34"/>
+      <node ref="P1" pin="30"/>
+      <node ref="P1" pin="20"/>
+      <node ref="P1" pin="9"/>
+      <node ref="P1" pin="6"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="29"/>
+      <node ref="U1" pin="2"/>
+      <node ref="L2" pin="2"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(JP1-Pad2)">
+      <node ref="U1" pin="9"/>
+      <node ref="L1" pin="1"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="L4" pin="1"/>
+    </net>
+    <net code="6" name="ANT_P">
+      <node ref="U1" pin="3"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="7" name="ANT_N">
+      <node ref="L3" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="8" name="PWRAMP">
+      <node ref="U1" pin="20"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="9" name="ANT_SEL">
+      <node ref="U1" pin="21"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+      <node ref="Y1" pin="3"/>
+    </net>
+    <net code="12" name="GPADC2">
+      <node ref="U1" pin="26"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="13" name="GPADC1">
+      <node ref="JP2" pin="1"/>
+      <node ref="U1" pin="25"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="14" name="CS">
+      <node ref="P1" pin="24"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="16" name="Data_IO">
+      <node ref="U1" pin="11"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="17" name="Data_CLK">
+      <node ref="U1" pin="12"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="18" name="SYS_CLK">
+      <node ref="P1" pin="13"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="19" name="IRQ">
+      <node ref="U1" pin="19"/>
+      <node ref="P1" pin="11"/>
+    </net>
+    <net code="20" name="Net-(C8-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="L6" pin="2"/>
+    </net>
+    <net code="21" name="/GPIO24(GEN5)">
+      <node ref="P1" pin="18"/>
+    </net>
+    <net code="22" name="/GPIO23(GEN4)">
+      <node ref="P1" pin="16"/>
+    </net>
+    <net code="23" name="/GPIO4(GCLK)">
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="24" name="/GPIO25(GEN6)">
+      <node ref="P1" pin="22"/>
+    </net>
+    <net code="25" name="/GPIO18(GEN1)(PWM0)">
+      <node ref="P1" pin="12"/>
+    </net>
+    <net code="26" name="/GPIO15(RXD0)">
+      <node ref="P1" pin="10"/>
+    </net>
+    <net code="27" name="/GPIO14(TXD0)">
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="28" name="/GPIO7(SPI1_CE_N)">
+      <node ref="P1" pin="26"/>
+    </net>
+    <net code="29" name="+3V3">
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="23"/>
+      <node ref="C1" pin="1"/>
+      <node ref="P1" pin="17"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="30" name="Net-(C6-Pad1)">
+      <node ref="L6" pin="1"/>
+      <node ref="L4" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="31" name="Net-(C5-Pad1)">
+      <node ref="L5" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="32" name="Net-(C7-Pad1)">
+      <node ref="L7" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="L5" pin="2"/>
+    </net>
+    <net code="33" name="/GPIO26">
+      <node ref="P1" pin="37"/>
+    </net>
+    <net code="34" name="/GPIO19(SPI1_MISO)">
+      <node ref="P1" pin="35"/>
+    </net>
+    <net code="35" name="/GPIO13(PWM1)">
+      <node ref="P1" pin="33"/>
+    </net>
+    <net code="36" name="/GPIO6">
+      <node ref="P1" pin="31"/>
+    </net>
+    <net code="37" name="/GPIO5">
+      <node ref="P1" pin="29"/>
+    </net>
+    <net code="38" name="/ID_SD">
+      <node ref="P1" pin="27"/>
+    </net>
+    <net code="39" name="CLK">
+      <node ref="P1" pin="23"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="40" name="MISO">
+      <node ref="P1" pin="21"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="41" name="MOSI">
+      <node ref="P1" pin="19"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="42" name="/GPIO20(SPI1_MOSI)">
+      <node ref="P1" pin="38"/>
+    </net>
+    <net code="43" name="/GPIO12(PWM0)">
+      <node ref="P1" pin="32"/>
+    </net>
+    <net code="44" name="/GPIO22(GEN3)">
+      <node ref="P1" pin="15"/>
+    </net>
+    <net code="45" name="/ID_SC">
+      <node ref="P1" pin="28"/>
+    </net>
+    <net code="46" name="/GPIO16">
+      <node ref="P1" pin="36"/>
+    </net>
+    <net code="47" name="+5V">
+      <node ref="P1" pin="2"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="48" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="49" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="50" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="51" name="Net-(C2-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="52" name="Net-(C3-Pad2)">
+      <node ref="U1" pin="7"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="53" name="/GPIO21(SPI1_SCK)">
+      <node ref="P1" pin="40"/>
+    </net>
+  </nets>
+</export>
